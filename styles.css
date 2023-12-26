@@ -1,0 +1,79 @@
+.container-xxl {
+    height: 100vh;
+    padding: 0px !important;
+    overflow: hidden;
+}
+
+.section1 {
+    height: 120px;
+}
+
+.screen {
+    border: none;
+    outline: none;
+    font-size: 4em;    
+}
+
+.section2 {
+    height: 570px;
+}
+
+.btn {
+    background-color: lightslategray !important;
+    border: none !important;
+    border-radius: 0px !important;
+    font-size: 1.5em !important;
+}
+
+.btn:hover {
+    background-color: rgb(141, 152, 163) !important;
+}
+
+.red {
+    background-color: tomato !important;
+}
+
+.red:hover {
+    background-color: rgb(251, 129, 107) !important;
+}
+
+.sum {
+    background-color: orange !important;
+}
+
+.sum:hover {
+    background-color: rgb(251, 185, 62) !important;
+}
+
+.eq {
+    background-color: rgb(104, 103, 103) !important;
+}
+
+.eq:hover {
+    background-color: rgb(126, 125, 125) !important;
+}
+
+.section2 .row {
+    height: 20%;
+}
+
+.section2 .col {
+    padding: 0px;
+    border-radius: none !important;
+}
+
+@media only screen and (max-width: 542px) {
+    .section1 {
+        height: 90px;
+    }   
+    
+    .section2 .row {
+        height: 20.7%;
+    }
+}
+
+@media only screen and (max-height: 680px) {
+    .section2 .row {
+        height: 17.5% !important;
+    }
+}
