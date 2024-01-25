@@ -28,30 +28,33 @@
                     <div class="col"><button onclick="getNum('9')" class="btn h-100 w-100">9</button></div>
                     <div class="col"><button onclick="getNum('8')" class="btn h-100 w-100">8</button></div>
                     <div class="col"><button onclick="getNum('7')" class="btn h-100 w-100">7</button></div>
-                    <div class="col"><button onclick="getNum('/'), foo('/')" class="btn h-100 w-100 sum">/</button></div>
+                    <div class="col"><button onclick="getNum('/'), foo('/'), emp()" class="btn h-100 w-100 sum">/</button></div>
                 </div>
                 <div class="row">
                     <div class="col"><button onclick="getNum('6')" class="btn h-100 w-100">6</button></div>
                     <div class="col"><button onclick="getNum('5')" class="btn h-100 w-100">5</button></div>
                     <div class="col"><button onclick="getNum('4')" class="btn h-100 w-100">4</button></div>
-                    <div class="col"><button onclick="getNum('*'), foo('*')" class="btn h-100 w-100 sum">x</button></div>
+                    <div class="col"><button onclick="getNum('*'), foo('*'), emp()" class="btn h-100 w-100 sum">x</button></div>
                 </div>
                 <div class="row">
                     <div class="col"><button onclick="getNum('3')" class="btn h-100 w-100">3</button></div>
                     <div class="col"><button onclick="getNum('2')" class="btn h-100 w-100">2</button></div>
                     <div class="col"><button onclick="getNum('1')" class="btn h-100 w-100">1</button></div>
-                    <div class="col"><button onclick="getNum('-'), foo('-')" class="btn h-100 w-100 sum">-</button></div>
+                    <div class="col"><button onclick="getNum('-'), foo('-'), emp()" class="btn h-100 w-100 sum">-</button></div>
                 </div>
                 <div class="row">
                     <div class="col"><button onclick="getNum('.')" class="btn h-100 w-100">.</button></div>
                     <div class="col"><button onclick="getNum('0')" class="btn h-100 w-100">0</button></div>
                     <div class="col"><button onclick="sum()" class="btn h-100 w-100 eq">=</button></div>
-                    <div class="col"><button onclick="getNum('+'), foo('+')" class="btn h-100 w-100 sum">+</button></div>
+                    <div class="col"><button onclick="getNum('+'), foo('+'), emp()" class="btn h-100 w-100 sum">+</button></div>
                 </div>
             </div>
         </div>
     </div>
 </body>
+<script src="pwabuilder-sw.js"></script>
+<script src="icons.json"></script>
+<script src="manifest.json"></script>
 <script src="bootstrap-5.3.0-alpha3-dist/bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
 <script src="app.js"></script>
 
