@@ -1,12 +1,10 @@
 {
   "background_color": "#ffffff",
-  "dir": "ltr",
   "display": "standalone",
-  "name": "Simple calculator",
+  "name": "Simple-calculator",
   "orientation": "portrait",
-  "scope": "https://precious-dodol-ccb0f7.netlify.app/",
   "short_name": "Calculator",
-  "start_url": "https://precious-dodol-ccb0f7.netlify.app/",
+  "start_url": "index.html",
   "theme_color": "#778899",
   "description": "calculator app"
 }
