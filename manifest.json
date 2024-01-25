@@ -1,8 +1,8 @@
 {
   "background_color": "#ffffff",
-  "display": "standalone",
+  "display": "fullscreen",
   "name": "Simple-calculator",
-  "orientation": "portrait",
+  "orientation": "portrait-primary",
   "short_name": "Calculator",
   "start_url": "index.html",
   "theme_color": "#778899",
